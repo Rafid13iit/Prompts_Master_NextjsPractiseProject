@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://github.com/Rafid13iit/Prompts_Master_NextjsPractiseProject/blob/master/public/assets/images/cover.png?raw=true" width="750" height="400" align="center">
+
+# Prompts Master - Next.js Practice Project
+
+Prompts Master is a Next.js application designed for creative writing enthusiasts. It allows users to create, edit, and share creative writing prompts, explore others' prompts, and personalize their experience.
+
+## Features
+
+- Create and share writing prompts
+- Edit existing prompts
+- Explore prompts by other users
+- Personalized user profiles
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js and npm installed on your machine
+- MongoDB URI for database connection
+- NextAuth configuration for authentication
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rafid13iit/Prompts_Master_NextjsPractiseProject.git
+   cd Prompts_Master_NextjsPractiseProject
+2. Install dependencies:
+    ```bash
+    npm install
+3. Create a .env.local file in the root directory and add your environment variables:
+    ```bash
+    GOOGLE_ID=your-google-id
+    GOOGLE_CLIENT_SECRET=your-google-client-secret-key
+    MONGODB_URI=your-mongodb-uri
+    NEXTAUTH_URL=http://localhost:3000
+    NEXTAUTH_URL_INTERNAL=http://localhost:3000
+    NEXTAUTH_SECRET=your-next-auth-secret-key
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Run the development server:
+    ```bash
+    npm run dev
+Open your browser and go to http://localhost:3000.
 
-## Learn More
+## Usage
+- Home Page: Browse or create new writing prompts.
+- Create Prompt: Enter a prompt and add relevant tags.
+- User Profile: View and manage your prompts.
+- Update Prompt: Edit existing prompts and update details.
 
-To learn more about Next.js, take a look at the following resources:
+## Acknowledgements
+Special thanks to **Adrian Hajdin** for his helpful tutorials and guidance on YouTube.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any features, bug fixes, or improvements.
