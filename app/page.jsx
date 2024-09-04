@@ -12,7 +12,7 @@ const Home = () => {
         </span>
       </h1>
       <p className="desc text-center">
-        Prompts Master is an open-source AI tool designed for the modern world, enabling users to discover, create, and share innovative prompts, driving creativity and collaboration
+        Prompts Master is an open-source AI tool designed for the modern world, enabling users to discover, create, and share innovative prompts
       </p>
 
       <Feed />
