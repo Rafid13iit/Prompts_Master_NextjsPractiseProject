@@ -2,14 +2,6 @@ import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 import '@styles/globals.css'
 
-export const metadata: Metadata = {
-  title: "BOOM",
-  description: "Video Calling App",
-  icons: {
-    icon: '/icons/logo.svg'
-  }
-};
-
 export const metadata = {
   title: "Prompts Master",
   description: "Discover & Share AI Prompts",
